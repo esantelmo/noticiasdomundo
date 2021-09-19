@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+    body {
+      display:flex;
+      flex-direction:column;
+    }
+    header, footer {
+      flex: 0 0 10%;
+      background-color: chocolate;
+    }
+    main {
+      display:flex;
+      flex-direction:row;
+      flex: 1 1 80%
+    }
+    nav, aside {
+      flex: 0 0 10%;
+      background-color:cornflowerblue;
+    }
+    article {
+      flex: 1 1 80%;
+      background-color:white;
+    }
+    @media all and (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+    }
+  </style>
+  <title>Holy Graal</title>
+</head>
+<body>
+  <header>
+    #Header
+  </header>
+  <main>
+    <nav>
+      #Nav
+    </nav>
+    <article>
+      #Article
+    </article>
+    <aside>
+      #Aside
+    </aside>
+  </main>
+  <Footer>
+    #Footer
+  </Footer>
+</body>
+</html>
