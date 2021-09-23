@@ -2,48 +2,30 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      border: 0;
-      padding: 0;
-    }
-    body {
-      display:flex;
-      flex-direction:column;
-    }
-    header, footer {
-      flex: 0 0 10%;
-      background-color: chocolate;
-    }
-    main {
-      display:flex;
-      flex-direction:row;
-      flex: 1 1 80%
-    }
-    nav, aside {
-      flex: 0 0 10%;
-      background-color:cornflowerblue;
-    }
-    section {
-      flex: 1 1 80%;
-      background-color:white;
-    }
-    @media all and (max-width: 768px) {
-      main {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="design/css/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="design/css/layout.css"/>
   <title>Holy Graal</title>
 </head>
 <body>
   <header>
-    <h1>#Header</h1>
+    <div>
+      <img src="design/img/LOGO.png" height="70px">
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Books & Culture</a></li>
+          <li><a href="#">Fiction & Poetry</a></li>
+          <li><a href="#">Humor & Cartoons</a></li>
+          <li><a href="#">Magazine</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <nav>
+      <p>Artigos:</p>
       <ul>
         <a href='#Artigo1'><li>Artigo 1</li></a>
         <a href='#Artigo2'><li>Artigo 2</li></a>
@@ -53,16 +35,19 @@
     <section>
       <article>
         <h2 id='Artigo1'>Artigo 1</h2>
+        <img src="design/img/teste.png"/>
         <p>Aenean a rutrum justo. Phasellus vehicula aliquet orci, nec pharetra urna consequat nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec efficitur neque tempus turpis porttitor fringilla. Proin nec est orci. Sed aliquet lorem eget congue lacinia. Cras at erat et tortor convallis faucibus. Fusce aliquam condimentum scelerisque. Quisque accumsan sollicitudin elit, sit amet convallis elit auctor sit amet. Vestibulum venenatis lectus elit, vitae consectetur augue commodo sed.</p>
         <p>Nunc auctor mi in ex vehicula, vitae tincidunt lorem pulvinar. Sed quis aliquet arcu, nec egestas sem. Mauris sit amet urna risus. Phasellus faucibus eros non faucibus blandit. Suspendisse eu lacus non dui mattis fermentum a at sem. Nunc semper viverra molestie. Proin et magna eu massa porta convallis.</p>
         <p>In sit amet tempus tellus, quis iaculis velit. Proin vel dolor finibus, pellentesque nisl vitae, luctus tellus. In hac habitasse platea dictumst. Mauris scelerisque tellus mi, sed ultrices odio vehicula ut. Proin ultricies fringilla molestie. Ut vel tempor massa, eu consectetur sapien. Aenean tempor mauris a elit aliquam, id malesuada lacus interdum. In tempus leo sed elit pharetra, a molestie ipsum fermentum. Nullam ex diam, mattis a laoreet non, hendrerit quis ex. Duis sagittis tellus nisi, sit amet condimentum quam porta sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ipsum ex, vehicula id magna ac, faucibus venenatis felis. Duis sed lorem in enim iaculis mattis. Maecenas et sagittis ante.</p>
       </article>
+      <hr>
       <article>
         <h2 id='Artigo2'>Artigo 2</h2>
         <p>Aenean a rutrum justo. Phasellus vehicula aliquet orci, nec pharetra urna consequat nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec efficitur neque tempus turpis porttitor fringilla. Proin nec est orci. Sed aliquet lorem eget congue lacinia. Cras at erat et tortor convallis faucibus. Fusce aliquam condimentum scelerisque. Quisque accumsan sollicitudin elit, sit amet convallis elit auctor sit amet. Vestibulum venenatis lectus elit, vitae consectetur augue commodo sed.</p>
         <p>Nunc auctor mi in ex vehicula, vitae tincidunt lorem pulvinar. Sed quis aliquet arcu, nec egestas sem. Mauris sit amet urna risus. Phasellus faucibus eros non faucibus blandit. Suspendisse eu lacus non dui mattis fermentum a at sem. Nunc semper viverra molestie. Proin et magna eu massa porta convallis.</p>
         <p>In sit amet tempus tellus, quis iaculis velit. Proin vel dolor finibus, pellentesque nisl vitae, luctus tellus. In hac habitasse platea dictumst. Mauris scelerisque tellus mi, sed ultrices odio vehicula ut. Proin ultricies fringilla molestie. Ut vel tempor massa, eu consectetur sapien. Aenean tempor mauris a elit aliquam, id malesuada lacus interdum. In tempus leo sed elit pharetra, a molestie ipsum fermentum. Nullam ex diam, mattis a laoreet non, hendrerit quis ex. Duis sagittis tellus nisi, sit amet condimentum quam porta sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ipsum ex, vehicula id magna ac, faucibus venenatis felis. Duis sed lorem in enim iaculis mattis. Maecenas et sagittis ante.</p>
       </article>
+      <hr>
       <article>
         <h2 id='Artigo3'>Artigo 3</h2>
         <p>Aenean a rutrum justo. Phasellus vehicula aliquet orci, nec pharetra urna consequat nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec efficitur neque tempus turpis porttitor fringilla. Proin nec est orci. Sed aliquet lorem eget congue lacinia. Cras at erat et tortor convallis faucibus. Fusce aliquam condimentum scelerisque. Quisque accumsan sollicitudin elit, sit amet convallis elit auctor sit amet. Vestibulum venenatis lectus elit, vitae consectetur augue commodo sed.</p>
@@ -71,11 +56,26 @@
       </article>
     </section>
     <aside>
-      #Aside
+      <img src="design/img/adv.png"/>
+      <p>Text Advertising</p>
     </aside>
   </main>
-  <Footer>
-    #Footer
-  </Footer>
+  <footer>
+    <div class="w-10"></div>
+    <div class="corpoFooter">
+      <img src="design/img/LOGO2.png" height="70px" width="244.328">
+      <hr>
+      <nav>
+        <ul>
+          <li><h3>Artigos:</h3></li>
+          <a href='#Artigo1'><li>Artigo 1</li></a>
+          <a href='#Artigo2'><li>Artigo 2</li></a>
+          <a href='#Artigo3'><li>Artigo 3</li></a>
+        </ul>
+      </nav>
+      <hr>
+    </div>
+    <div class="w-10"></div>
+  </footer>
 </body>
 </html>
