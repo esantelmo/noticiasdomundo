@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Medium";
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-SemiBold";
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "SIMPLIFICA";
+    src: url(../fonts/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url(../fonts/Lora/static/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Koh-Santepheap";
+    src: url(../fonts/Koh_Santepheap/KohSantepheap-Bold.ttf);
+}
