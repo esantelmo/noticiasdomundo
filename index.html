@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="design/css/fonts.css"/>
   <link rel="stylesheet" type="text/css" href="design/css/layout.css"/>
   <title>Notícias do Mundo</title>
+  <!--meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
 </head>
 <body>
   <header>
@@ -60,11 +62,19 @@
       <p>Text Advertising</p>
     </aside>
   </main>
-  <footer>
-    <div class="w-10"></div>
-    <div class="corpoFooter">
-      <img src="design/img/LOGO2.png" height="70px" width="244.328">
-      <hr>
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase">Noticias do Mundo</h5>
+        <p>O Blog onde você fica bem Informado.</p>
+        
+        <div class="corpoFooter">
+          <img src="design/img/LOGO2.png" height="70px" width="244.328">
+        </div>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">        
       <nav>
         <ul>
           <li><h3>Artigos:</h3></li>
@@ -73,9 +83,36 @@
           <a href='#Artigo3'><li>Artigo 3</li></a>
         </ul>
       </nav>
-      <hr>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="w-10"></div>
-  </footer>
-</body>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://mdbootstrap.com/"> NoticiasDoMundo.com</a>
+  </div>
+</footer>
+</body> 
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
