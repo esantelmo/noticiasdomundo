@@ -144,6 +144,12 @@ aside img{
   height: 350px;
   position: relative;
 }
+
+aside .prop{
+  width: 25%;
+  display:inline-block;
+}
+
 footer{
   color: gray;
   display: flex;
