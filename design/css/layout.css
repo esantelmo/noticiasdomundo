@@ -145,11 +145,6 @@ aside img{
   position: relative;
 }
 
-aside .prop{
-  width: 25%;
-  display:inline-block;
-}
-
 footer{
   color: gray;
   display: flex;
