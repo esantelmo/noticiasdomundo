@@ -141,7 +141,7 @@ aside{
 }
 aside img{
   width: 180px;
-  height: 350px;
+  height: auto;
   position: relative;
 }
 
