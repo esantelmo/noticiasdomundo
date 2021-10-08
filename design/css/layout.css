@@ -191,7 +191,7 @@ footer h3{
     flex-direction: column !important;
   }
   main nav{
-    max-height: 5%;
+    max-height: 8%;
   }
   main ul{
     flex-direction: row !important;
