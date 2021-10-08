@@ -190,16 +190,6 @@ footer h3{
   main {
     flex-direction: column !important;
   }
-  main nav{
-    max-height: 5%;
-  }
-  main ul{
-    flex-direction: row !important;
-  }
-  .corpoFooter2{
-    flex-direction: column !important;
-    align-items: center;
-  }
 }
 .w-10{
   width: 10%;
